@@ -1,5 +1,9 @@
 import ServiceItem from "@/components/modules/ServiceItem/ServiceItem";
 import React from "react";
+import LocalCafeIcon from "@mui/icons-material/LocalCafe";
+import FireTruckIcon from "@mui/icons-material/FireTruck";
+import TableViewIcon from "@mui/icons-material/TableView";
+import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
 
 function Services() {
   return (
@@ -21,7 +25,7 @@ function Services() {
             et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
             takima erat tempor"
             img="/images/service-1.jpg"
-            icon=""
+            icon={LocalCafeIcon}
           />
           <ServiceItem
             title="Fresh Coffee Beans"
@@ -29,7 +33,7 @@ function Services() {
             et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
             takima erat tempor"
             img="/images/service-2.jpg"
-            icon=""
+            icon={FireTruckIcon}
           />
           <ServiceItem
             title="Online Table Booking"
@@ -37,7 +41,7 @@ function Services() {
             et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
             takima erat tempor"
             img="/images/service-3.jpg"
-            icon=""
+            icon={TableViewIcon}
           />
           <ServiceItem
             title="Best Quality Coffee"
@@ -45,7 +49,7 @@ function Services() {
             et lorem dolor sed est sit invidunt, dolore tempor diam ipsum
             takima erat tempor"
             img="/images/service-4.jpg"
-            icon=""
+            icon={MilitaryTechIcon}
           />
         </div>
       </div>
