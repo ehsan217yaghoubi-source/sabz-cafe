@@ -7,10 +7,10 @@ import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
 
 function Services({ services }) {
   const iconMap = {
-    LocalCafeIcon: LocalCafeIcon,
-    FireTruckIcon: FireTruckIcon,
-    TableViewIcon: TableViewIcon,
-    MilitaryTechIcon: MilitaryTechIcon,
+    LocalCafeIcon,
+    FireTruckIcon,
+    TableViewIcon,
+    MilitaryTechIcon,
   };
   return (
     <div className="container-fluid pt-5">
@@ -25,14 +25,14 @@ function Services({ services }) {
           <h1 className="display-4">Fresh &amp; Organic Beans</h1>
         </div>
         <div className="row">
-          {services.services.map((service) => {
-             const IconComponent = iconMap[service.icon];
+          {services.map(({ icon, id, title, desc, img }) => {
+            const IconComponent = iconMap[icon];
             return (
               <ServiceItem
-                key={service.id}
-                title={service.title}
-                desc={service.desc}
-                img={service.img}
+                key={id}
+                title={title}
+                desc={desc}
+                img={img}
                 icon={IconComponent}
               />
             );

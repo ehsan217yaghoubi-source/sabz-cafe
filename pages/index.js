@@ -10,20 +10,23 @@ function Index({ data }) {
     <>
       <Slider />
       <About />
-      <Services services={data} />
+      <Services services={data.services} />
       <Offer />
-      <Menu />
+      <Menu menu={data.menu}/>
     </>
   );
 }
 
 export async function getStaticProps() {
-  const res = await fetch("http://localhost:4000/services");
-  const services = await res.json();
+  const servicesResponse = await fetch("http://localhost:4000/services");
+  const servicesData = await servicesResponse.json();
+
+  const menuResponse = await fetch("http://localhost:4000/menu");
+  const menuData = await menuResponse.json();
 
   return {
     props: {
-      data: { services },
+      data: { services: servicesData, menu: menuData },
     },
     revalidate: 43200,
   };

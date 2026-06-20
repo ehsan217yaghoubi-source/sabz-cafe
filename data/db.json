@@ -3,21 +3,64 @@
     {
       "id": 1,
       "title": "Black Coffee",
+      "price": 5,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": 8,
-      "img": "/images/menu-1.jpg",
-      "off": 0
+      "score": 5,
+      "off": 0,
+      "type": "cold",
+      "img": "/images/menu-1.jpg"
     },
     {
       "id": 2,
-      "title": "Chocolete Coffee",
+      "title": "Hot Chocolete",
+      "price": 4,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "price": 7,
-      "img": "/images/menu-2.jpg",
-      "off": 0
+      "score": 4.4,
+      "off": 0,
+      "type": "hot",
+      "img": "/images/menu-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Ice Cream",
+      "price": 6,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.9,
+      "off": 0,
+      "type": "cold",
+      "img": "/images/menu-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Tea",
+      "price": 3,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 5,
+      "off": 0,
+      "type": "hot",
+      "img": "/images/menu-4.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Milk",
+      "price": 4,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.8,
+      "off": 0,
+      "type": "hot",
+      "img": "/images/menu-5.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Banana Milk",
+      "price": 12,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.9,
+      "off": 0,
+      "type": "cold",
+      "img": "/images/menu-6.jpeg"
     }
   ],
-
   "services": [
     {
       "id": 1,
@@ -48,18 +91,12 @@
       "icon": "TableViewIcon"
     }
   ],
-
   "newsLetters": [
     {
-      "id": 1,
-      "email": "amin@gmail.com"
-    },
-    {
-      "id": 2,
-      "email": "qadir@gmail.com"
+      "email": "ehsan217yaghoubi@gmail.com",
+      "id": 1
     }
   ],
-
   "comment": [
     {
       "id": 1,
@@ -68,7 +105,6 @@
       "productID": 1,
       "score": 5
     },
-
     {
       "id": 2,
       "username": "Amin_Saeedi",

@@ -24,7 +24,7 @@ function Slider() {
         style={{ backgroundImage: 'url("/images/carousel-1.jpg")' }}
       >
         <div
-          class={`${styles.slider_caption} d-flex flex-column align-items-center justify-content-center`}
+          className={`${styles.slider_caption} d-flex flex-column align-items-center justify-content-center`}
         >
           <h2 className="text-primary font-weight-medium m-0">
             We Have Been Serving
@@ -39,7 +39,7 @@ function Slider() {
         style={{ backgroundImage: 'url("/images/carousel-2.jpg")' }}
       >
         <div
-          class={`${styles.slider_caption} d-flex flex-column align-items-center justify-content-center`}
+          className={`${styles.slider_caption} d-flex flex-column align-items-center justify-content-center`}
         >
           <h2 className="text-primary font-weight-medium m-0">
             We Have Been Serving
