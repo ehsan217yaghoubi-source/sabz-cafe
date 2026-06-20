@@ -112,5 +112,15 @@
       "productID": 2,
       "score": 4.5
     }
+  ],
+  "reserve": [
+    {
+      "id": 1,
+      "name": "Ehsan",
+      "email": "ehsan@gmail.com",
+      "date": "2026-06-20",
+      "time": "19:30",
+      "personCount": 2
+    }
   ]
 }

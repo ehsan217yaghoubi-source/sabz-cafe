@@ -17,7 +17,7 @@ function Slider() {
       loop={true}
       navigation={true}
       modules={[Navigation]}
-      className={styles.swiper}
+      className={`${styles.swiper} overlay-bottom`}
     >
       <SwiperSlide
         className={styles.swiper_slide}
