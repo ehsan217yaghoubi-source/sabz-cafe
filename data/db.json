@@ -97,20 +97,41 @@
       "id": 1
     }
   ],
-  "comment": [
+  "comments": [
     {
       "id": 1,
       "username": "Q_Yolme",
-      "body": "Perfect Coffee :))",
       "productID": 1,
-      "score": 5
+      "body": "Wonderful coffee ❤️",
+      "profile": "/images/testimonial-1.jpg"
     },
     {
       "id": 2,
-      "username": "Amin_Saeedi",
-      "body": "Perfect Coffee :))",
+      "username": "Amin Saeedi",
       "productID": 2,
-      "score": 4.5
+      "body": "Perfect coffee 🙋‍♂️❤️",
+      "profile": "/images/testimonial-2.jpg"
+    },
+    {
+      "id": 3,
+      "username": "Sasan Moqaddas",
+      "productID": 1,
+      "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
+      "profile": "/images/testimonial-3.jpg"
+    },
+    {
+      "id": 4,
+      "username": "Alireza Rezaei",
+      "productID": 2,
+      "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
+      "profile": "/images/testimonial-4.jpg"
+    },
+    {
+      "id": 5,
+      "username": "Mmd Mohammadi",
+      "productID": 1,
+      "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
+      "profile": "/images/testimonial-4.jpg"
     }
   ],
   "reserve": [
