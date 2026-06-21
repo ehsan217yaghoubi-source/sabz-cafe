@@ -36,7 +36,7 @@ function Navbar() {
               About
             </Link>
             <Link href="/services" className={`${styles.nav_link}`}>
-              Service
+              Services
             </Link>
             <Link href="/menu" className={`${styles.nav_link}`}>
               Menu
