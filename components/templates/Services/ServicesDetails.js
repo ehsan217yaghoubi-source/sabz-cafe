@@ -24,7 +24,7 @@ function ServicesDetails({ data }) {
           <h1 className="display-4">Fresh & Organic Beans</h1>
         </div>
         <div className="row">
-          {data.slice(0, 4).map((service) => {
+          {data.map((service) => {
             const IconComponent = iconMap[service.icon];
             return (
               <div key={service.id} className="col-lg-6 mb-5">
