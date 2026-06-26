@@ -5,8 +5,8 @@
       "title": "Black Coffee",
       "price": 5,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "score": 5,
-      "off": 0,
+      "score": 1.2,
+      "off": 20,
       "type": "cold",
       "img": "/images/menu-1.jpg"
     },
@@ -15,8 +15,8 @@
       "title": "Hot Chocolete",
       "price": 4,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "score": 4.4,
-      "off": 0,
+      "score": 3.3,
+      "off": 30,
       "type": "hot",
       "img": "/images/menu-2.jpg"
     },
@@ -25,7 +25,7 @@
       "title": "Ice Cream",
       "price": 6,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "score": 4.9,
+      "score": 4.5,
       "off": 0,
       "type": "cold",
       "img": "/images/menu-3.jpg"
@@ -35,8 +35,8 @@
       "title": "Tea",
       "price": 3,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "score": 5,
-      "off": 0,
+      "score": 2.2,
+      "off": 60,
       "type": "hot",
       "img": "/images/menu-4.jpeg"
     },
@@ -46,7 +46,7 @@
       "price": 4,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
       "score": 4.8,
-      "off": 0,
+      "off": 50,
       "type": "hot",
       "img": "/images/menu-5.jpeg"
     },
@@ -55,8 +55,8 @@
       "title": "Banana Milk",
       "price": 12,
       "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
-      "score": 4.9,
-      "off": 0,
+      "score": 4.3,
+      "off": 40,
       "type": "cold",
       "img": "/images/menu-6.jpeg"
     }
@@ -122,14 +122,14 @@
     {
       "id": 4,
       "username": "Alireza Rezaei",
-      "productID": 2,
+      "productID": 3,
       "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
       "profile": "/images/testimonial-4.jpg"
     },
     {
       "id": 5,
       "username": "Mmd Mohammadi",
-      "productID": 1,
+      "productID": 5,
       "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
       "profile": "/images/testimonial-4.jpg"
     }

@@ -104,7 +104,7 @@ function ContactDetails() {
                 <div className="control-group">
                   <textarea
                     {...register("message", { required: true })}
-                    className="form-control bg-transparent py-3 px-4"
+                    className="form-control bg-transparent py-3 px-4 resize-none"
                     rows="5"
                     id="message"
                     placeholder="Message"

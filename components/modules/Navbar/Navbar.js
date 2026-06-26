@@ -14,10 +14,6 @@ function Navbar() {
     }
   };
 
-  useEffect(() => {
-    setSearch(route.query.q);
-  }, []);
-
   const searchHandlerWithEnter = (event) => {
     if (event.keyCode === 13) {
       if (search.trim()) {
@@ -63,23 +59,33 @@ function Navbar() {
           <div className={`${styles.navbar_nav} ml-auto p-4`}>
             <Link
               href="/"
-              className={`${styles.nav_link} ${styles.active_nav_link}`}
+              // className={`${styles.nav_link} ${styles.active_nav_link}`}
+              className={`${styles.nav_link} ${route.pathname === "/" ? styles.active_nav_link : ""}`}
             >
               Home
             </Link>
-            <Link href="/about" className={`${styles.nav_link}`}>
+            <Link
+              href="/about"
+              className={`${styles.nav_link} ${route.pathname === "/about" ? styles.active_nav_link : ""}`}
+            >
               About
             </Link>
-            <Link href="/services" className={`${styles.nav_link}`}>
+            <Link
+              href="/services"
+              className={`${styles.nav_link} ${route.pathname === "/services" ? styles.active_nav_link : ""}`}
+            >
               Services
             </Link>
-            <Link href="/menu" className={`${styles.nav_link}`}>
+            <Link
+              href="/menu"
+              className={`${styles.nav_link} ${route.pathname === "/menu" ? styles.active_nav_link : ""}`}
+            >
               Menu
             </Link>
             <div className={`${styles.dropdown}`}>
               <Link
                 href="#"
-                className={`${styles.nav_link} ${styles.dropdown_toggle}`}
+                className={`${styles.nav_link} ${styles.dropdown_toggle} ${route.pathname === "/reservation" || route.pathname === "/testimonial" ? styles.active_nav_link : ""}`}
                 data-toggle="dropdown"
               >
                 Pages
@@ -87,15 +93,24 @@ function Navbar() {
               <div
                 className={`${styles.dropdown_menu} ${styles.text_capitalize}`}
               >
-                <Link href="/reservation" className={`${styles.dropdown_item}`}>
+                <Link
+                  href="/reservation"
+                  className={`${styles.dropdown_item} ${route.pathname === "/reservation" ? styles.active_nav_link : ""}`}
+                >
                   Reservation
                 </Link>
-                <Link href="/testimonial" className={`${styles.dropdown_item}`}>
+                <Link
+                  href="/testimonial"
+                  className={`${styles.dropdown_item} ${route.pathname === "/testimonial" ? styles.active_nav_link : ""}`}
+                >
                   Testimonial
                 </Link>
               </div>
             </div>
-            <Link href="/contact" className={`${styles.nav_link}`}>
+            <Link
+              href="/contact"
+              className={`${styles.nav_link} ${route.pathname === "/contact" ? styles.active_nav_link : ""}`}
+            >
               Contact
             </Link>
           </div>

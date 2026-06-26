@@ -99,11 +99,11 @@ function Reservation() {
                   </div>
                   <div className="form-group">
                     <select
+                      defaultValue="Person"
                       {...register("personCount")}
                       className="custom-select bg-transparent border-primary px-4"
                       style={{ height: "49px" }}
                     >
-                      <option selected>Person</option>
                       <option value="1">Person 1</option>
                       <option value="2">Person 2</option>
                       <option value="3">Person 3</option>
